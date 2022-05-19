@@ -23,7 +23,7 @@ export default function BasicTable() {
   const params = useParams();
   let sheet_no = 7
   useEffect(() => {
-    let url = `https://sheets.googleapis.com/v4/spreadsheets/1digOYBypnO4-5ZtCibBfbULwEkSllpNNG8ZMduBqkME/values/Sheet${sheet_no}!A2:D9?key=AIzaSyB2oGgTTFbend-RafhynufvPhKflY7O8OI`
+    let url = `https://sheets.googleapis.com/v4/spreadsheets/1HZRyUK2IvQB6Jxg47sX7pjjBWHJQMmle13G9ec4Cbzc/values/Scoresheet!A14:D18?key=AIzaSyCePVJXWMaaqRE9kU-sMMaI3Sd0DTGKRjw`
     const getData = async () => {
       let res = await axios.get(url)
 
